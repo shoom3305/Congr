@@ -1,0 +1,11 @@
+.left{
+    justify-content: space-between;
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    padding: 0 56px;
+}
+.top{
+    top: -75px;
+}

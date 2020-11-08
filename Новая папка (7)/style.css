@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Itim', cursive;
+}
+
+header{
+    position: relative;
+    z-index: 1;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/prog.jpg);
+    background-size: cover;
+}
+h1{
+    margin: 0;
+}
+header h1{
+    color: white;
+    padding-top: 38%;
+    text-transform: uppercase;
+    font-size: 65px;
+    text-align: center;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/dark-room.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+main h1{
+    font-size: 65px;
+    text-align: left;
+    color: white;
+    padding: 100px 0 0 20px;
+}
+.row{
+    justify-content: space-between;
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    padding: 0 70px;
+}
+.mt-0 img{
+    height: 50px;
+    width: 100px;
+}
+.mt-0{
+    color: white;
+}
+.mt-0 h2{
+    color: white;
+}
+.center-row{
+    text-align: center;
+}
+.middle-row{
+    text-align: center;
+}
+.mt-80{
+    color: white;
+    margin: 80px 0px 0 60px;
+}
+.mt-8{
+    margin-top: 8px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-8{
+    width: 75%;
+    padding:8px;
+}
+.mt-130{
+    margin: 130px 0px 0 50px;
+}
+.col h2{
+    color: white;
+}
+.pre-main{
+    width: 100%;
+    height: 100vh;
+}
+.hamburger{
+    z-index: 111111;
+    position: fixed;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+    margin: 0;
+}
+.hamburger span{
+    transition: 500ms;
+    width: 49px;
+    height: 5px;
+    background: white;
+    display: block;
+    margin: 8px 0px;
+}
+.hamburger-menu{
+    visibility: hidden;
+    height: 100%;
+    -webkit-transition: 800ms;
+    -o-transition: 800ms;
+    transition: 800ms;
+    opacity: 0;
+    text-align: right;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    background: rgba(39, 39, 39, 0.96);
+    top: 0;
+}
+.active.hamburger span:nth-child(1){
+    transform: rotate(-45deg) translate(0px, 9px);
+}
+.active.hamburger span:nth-child(2){
+    transform: rotate(45deg) translate(0px, -10px);
+}
+.active.hamburger span:nth-child(3){
+    display: none;
+}
+.active~.hamburger-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.fp-nav{
+    right: 8px;
+    position: fixed;
+    display: flex;
+    z-index: 11111111111;
+    top: 45%;
+}
+.fp-nav ul{
+    list-style: none;
+    padding: 0;
+}
+.fp-nav ul li{
+    width: 9px;
+    height: 8px;
+    border-radius: 100%;
+    border: 1px solid white;
+    background: rgba(0,0,0,0.2);
+    margin-top: 6px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.fp-nav ul li:hover{
+    background: #ccc ;
+}
+.pre-main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/chairs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pre-main h1{
+    font-size: 65px;
+    color: white;
+    padding: 32px;
+}
+.slide-img img{
+    max-width: 386px;
+    min-height: 265px;
+}
+.slide-img{
+
+}
+.col p{
+    padding-left: 15px;
+    color: white;
+    margin: 0;
+}
+.pre-clients{
+    padding-top: 20px !important;
+    font-size: 40px !important;
+    text-align: center;
+}
+.row-repeat{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+}
+.col-md-1{
+    text-align: center;
+    flex: 1;
+}
+.col-md-1 p {
+    color: white;
+}
+.row-repeat img{
+    max-width: 157px;
+    min-height: 141px;
+    border-radius: 88%;
+}
+.mt-5{
+    margin-top: -4px !important;
+}
+.chairs-deal{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/chairs-killers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.mobile{
+    max-width: 560px;
+    max-height: 350px;
+    margin-bottom: 20px;
+}
+.chairs-deal{
+    font-size: 65px;
+    color: white;
+}
+.chairs-deal h1{
+    font-size: 65px;
+    color: white;
+    padding: 20px;
+}
+.col-web img{
+    max-height: 500px;
+}
+.row-web{
+    display: flex;
+    justify-content: center;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.mt-50{
+    margin-top: 80px;
+}
+footer{
+    width: 100%;
+    height: 17vh;
+    position: relative;
+    background: rgba(47, 79, 79,1);
+
+}
+.iphone{
+    max-width: 200px;
+    position: absolute;
+    top: -75px;
+    left: 170px;
+    display: block;
+    max-height: 239px;
+}
+.pt{
+    max-width: 133px;
+}
+footer h1{
+    font-size: 25px !important;
+    margin: 0;
+    padding: 0 !important;
+}
+footer p{
+    font-size: 15px !important;
+    margin: 0;
+}
+.hamburger-menu ul {
+    position: relative;
+    right: 118px;
+    top: 120px;
+}
+.hamburger-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
